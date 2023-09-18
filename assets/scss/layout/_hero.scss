@@ -47,10 +47,10 @@
         } 
     }
     &__button{
-        margin-right: 50px;
+        margin-right: 10px !important;
         line-height: 0;
         @media #{$lg} {
-            margin-right: 30px;
+            margin-right: 10px;
         }
         @media #{$md} {
             margin-right: 20px;
@@ -523,3 +523,4 @@
 .hero-thumb-space{
     margin-bottom: 100px;
 }
+

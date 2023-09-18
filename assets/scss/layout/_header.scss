@@ -285,9 +285,11 @@
 
     .tp-header-right {
         margin-left: 55px;
+        display: none;
 
         @media #{$md} {
             margin-left: 0px;
+            display: block !important;
         }
 
         & ul  {

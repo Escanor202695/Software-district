@@ -1,0 +1,22 @@
+.extra-class {
+    left: -778px !important;
+    width: 1200px !important;
+    margin: 0 auto !important ;
+}
+.close-open {
+    opacity: 0 !important;
+}
+.btn-item {
+    padding: 0 30px !important;
+}
+
+.space {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 992px) {
+    .close-open {
+        opacity: 1 !important;
+    }
+  
+}
