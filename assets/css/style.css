@@ -62,7 +62,7 @@
   --tp-common-orange: #FF7425;
   --tp-common-red: #E01E5A;
   --tp-common-sky: #1EDBDC;
-  --tp-common-deep-blue: #4C40F7;
+  --tp-common-deep-blue: #3BB7FE;
   --tp-heading-primary: #151718;
   --tp-grey-1: #F0F0F0;
   --tp-grey-2: #F9F9F9;
@@ -73,7 +73,7 @@
   --tp-grey-7: #F6F6F6;
   --tp-text-body: #6A6A74;
   --tp-text-p: #6A6A74;
-  --tp-theme-1: #6864ED;
+  --tp-theme-1: #3BB7FE;
   --tp-border-1: #F5F5F5;
   --tp-border-2: #F4F4F4;
   --tp-border-3: #EDEFEB;
@@ -2085,7 +2085,7 @@ input[type=color] {
 }
 
 .tp-logo-border {
-  padding: 43px 0;
+  padding: 0px 0 !important;
   padding-right: 80px;
   margin-right: 60px;
   border-right: 1px solid var(--tp-border-3);
@@ -2106,7 +2106,7 @@ input[type=color] {
   .tp-logo-border {
     padding-right: 20px;
     margin-right: 0px;
-    padding: 33px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2305,6 +2305,9 @@ input[type=color] {
   margin-left: 55px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .margin-left{
+    margin-left: 0;
+    }
   .tp-header-right {
     margin-left: 0px;
   }
@@ -2350,6 +2353,7 @@ input[type=color] {
     padding-left: 15px;
     margin-left: 15px;
   }
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-header-right ul li {

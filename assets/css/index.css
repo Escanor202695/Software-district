@@ -55,7 +55,7 @@ img.image-ronded {
 }
 
 .tp-slider-exp-item__content p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 21px;
 }
 
@@ -65,7 +65,7 @@ img.image-ronded {
 }
 
 .tp-slider-exp-item__content b {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -87,4 +87,71 @@ p.our-pride {
 
 .about-heading {
     margin: 0;
+}
+
+.tp-service-item {
+    padding: 30px 20px !important
+}
+
+.tp-service-item__content p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.tp-service-item__content h4 {
+    margin-bottom: 14px !important;
+}
+
+.tp-service-item {
+    margin-bottom: 40px !important
+}
+
+.tp-case-area.case-bg.case-space {
+    padding-top: 0;
+}
+.tp-logo img {
+    width: 100px !important;
+}
+.tp-logo{
+    text-align: center !important;
+    padding: -1px 0 !important
+}
+
+.tp-btn{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    height: 60px !important;
+    line-height: 60px !important;
+}
+.tp-section-title {
+    font-size: 45px !important;
+}
+
+.tp-slider-exp-item {
+    padding: 30px !important
+ 
+}
+.tp-main-menu ul li a {
+    font-size: 13px !important;
+    padding: 40px 0px;
+    font-weight: 600;
+}
+.tp-slider-title {
+    font-weight: 600 !important ;
+    font-size: 56px !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.01em;
+}
+
+.tp-hero__section-box p {
+    font-weight: 300 !important
+}
+
+.hero-grideant-bg {
+    background-size: cover !important
+}
+
+.tp-hero__thumb.text-start.text-lg-end.wow.tpfadeRight {
+    margin-left: 70px;
 }
