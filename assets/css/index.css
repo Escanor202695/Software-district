@@ -35,8 +35,10 @@
 
 img.image-ronded {
     border-radius: 60px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
 }
-
 .my-slide{
     margin-bottom: 100px;
 }
@@ -70,7 +72,7 @@ img.image-ronded {
 }
 
 .icon-bg {
-    background: #6d5dff !important
+    background: #3BB7FE !important;
 }
 
 .tp-exp-sm-title {
@@ -125,7 +127,7 @@ p.our-pride {
     line-height: 60px !important;
 }
 .tp-section-title {
-    font-size: 45px !important;
+    font-size: 38px !important;
 }
 
 .tp-slider-exp-item {
@@ -139,7 +141,7 @@ p.our-pride {
 }
 .tp-slider-title {
     font-weight: 600 !important ;
-    font-size: 56px !important;
+    font-size: 38px !important;
     line-height: 1.2 !important;
     letter-spacing: -0.01em;
 }
@@ -154,4 +156,51 @@ p.our-pride {
 
 .tp-hero__thumb.text-start.text-lg-end.wow.tpfadeRight {
     margin-left: 70px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+.icons a {
+    color: #fff;
+    font-size: 19px;
+}
+.tp-footer-widget__title span {
+    color: #fff;
+}
+
+a.space-top {
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+}
+.tp-section-subtitle.tp-green-color::before {
+    background-color: var(--tp-common-green);
+}
+
+.tp-service-item.sv-color-blue-two {
+    background-color: #3bb7fe26;
+}
+.breadcrumb__content h3 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.breadcrumb-height {
+    padding-top: 210px;
+    padding-bottom: 30px;
+}
+.counter-item h4::before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #3bb7fe;
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }

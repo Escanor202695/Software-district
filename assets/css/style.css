@@ -57,6 +57,7 @@
   --tp-common-yellow: #EED064;
   --tp-common-yellow-2: #FDFAEF;
   --tp-common-green: #33CC79;
+  --tp-common-d-blue: #00649e;
   --tp-common-green-2: #EBFAF2;
   --tp-common-blue: #EEEEFD;
   --tp-common-orange: #FF7425;
@@ -443,7 +444,7 @@ input[type=color] {
 }
 .tp-btn:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-common-green);
+  background-color: var(--tp-common-d-blue);
   transform: translateY(-4px);
 }
 .tp-btn:hover i {
@@ -474,7 +475,7 @@ input[type=color] {
 }
 .tp-btn-sm:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-common-green);
+  background-color: var(--tp-common-blue);
   transform: translateY(-4px);
 }
 .tp-btn-sm:hover i {

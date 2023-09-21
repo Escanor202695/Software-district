@@ -1,9 +1,9 @@
 .extra-class {
-    left: -670px !important;
+    right: 0;
+    left: -700px !important;
     width: 1200px !important;
     margin: 0 auto !important;
 }
-
 .btn-item {
     padding: 0 40px !important;
 }
@@ -12,14 +12,116 @@
     margin-bottom: 50px;
 }
 
+.tp-hero-shape-three img {
+    width: 190px;
+}
 
+.tp-footer-widget__title h2 {
+    color: #FFFF;
+    font-size: 40px;
+}
 
+.tp-footer-widget__title p {
+    color: #ffffffc4;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+.tp-slider-exp-item {
+    padding: 30px !important;
+    height: 385px;
+}
+img.height-for-image {
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+}
+.margin-top{
+    margin-top: 35px;
+}
+.tp-case-item.text-center img {
+    height: 300px;
+    object-fit: cover;
+}
+
+a.tp-btn.btn-item.edit-btn {
+    background: none;
+    color: #4ABCFE;
+    border: 2px solid #4ABCFE;
+    transition: .3s ease-in-out;
+}
+
+a.tp-btn.btn-item.edit-btn:hover{
+    background:#00649E ;
+    color: white;
+    border: 2px solid white;
+}
+
+.ab-title-xs {
+    font-weight: 600;
+    font-size: 25px !important;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+}
+
+.breadcrumb__content p {
+    width: 65%;
+    font-weight: 300;
+}
+
+.tp-service-item {
+    height: 411px;
+}
+button.scroll-top.scroll-to-target.open {
+    background: #3BB7FE;
+}
 @media only screen and (max-width: 990px)  {
-
+    
+    .tp-service-item {
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    .breadcrumb__content p {
+        width: 100%;
+        font-weight: 300;
+    }
+    img.image-ronded {
+        border-radius: 60px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .tp-case-item.text-center img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .margin-top{
+        margin-top: 0px;
+    }
+    img.height-for-image {
+        height: 100%;
+    }
 .tp-hero__thumb.text-start.text-lg-end.wow.tpfadeRight {
     margin-left: 0px !important
 }
 .close-open {
     opacity: 1 !important;
+}
+
+.tp-hero-shape-three img {
+    width: 120px;
+}
+
+.tp-footer-widget__title h2 {
+    color: #FFFF;
+    font-size: 35px;
+}
+.tp-slider-exp-item {
+    height: 100%;
+}
+img.height-for-image {
+    height: 100%;
+    width: 400%;
+    object-fit: cover;
 }
 }
