@@ -49,6 +49,8 @@ a.tp-btn.btn-item.edit-btn {
     color: #4ABCFE;
     border: 2px solid #4ABCFE;
     transition: .3s ease-in-out;
+    position: relative;
+    left: -30px;
 }
 
 a.tp-btn.btn-item.edit-btn:hover{
@@ -160,7 +162,69 @@ button.scroll-top.scroll-to-target.open {
     .margin-top-side{
         margin-top: 60px ;
     }
+
+    .tpoffcanvas__logo img {
+        width: 81%;
+        object-fit: contain;
+        position: relative;
+        left: -12px;
+        top: 10px;
+    }
+    .about-image {
+        background: linear-gradient(45deg, #000000a1, #00000045),url('../img/about/about-banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -34%;
+    }
+
+    .case-studies{
+        background: linear-gradient(45deg, #414141a1, #00000045),url('../img/about/case.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .scroll-top {
+    
+        border-radius: 14px;
+        
+    }
+    .scroll-top:hover{
+        background: #00649E !important;
+    }
+
+ .social-icon a:hover{
+    background: #00649E !important;
+
+ }
+ .tp-footer-widget__list ul li a:hover{
+    color: #3BB7FE !important;
+
+ }
 @media only screen and (max-width: 990px)  {
+    .tpoffcanvas__info-address a {
+        font-size: 12px !important
+    }
+    .tpoffcanvas__info-address span {
+
+        font-size: 14px !important ;
+        font-weight: 700 !important;
+    }
+    .extra-class {
+        right: 0;
+        left: -700px !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .service-item h3 {
+        color: white;
+    }
+    .service-item p {
+        color: white;
+        text-transform: lowercase;
+        font-size: 12px;
+    }
     .all-in-one{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -168,7 +232,7 @@ button.scroll-top.scroll-to-target.open {
         grid-column-gap: 25px;
         grid-row-gap: 0px;
         background: #FCD8A2;
-        padding: 50px;
+        padding: 30px;
         border-radius: 8px;
         margin-top: 60px;
     }
@@ -180,7 +244,7 @@ button.scroll-top.scroll-to-target.open {
         grid-column-gap: 25px;
         grid-row-gap: 0px;
         background: #40475E;
-        padding: 50px;
+        padding: 30px;
         border-radius: 8px;
         margin-top: 60px;
     }
@@ -191,7 +255,7 @@ button.scroll-top.scroll-to-target.open {
         grid-column-gap: 25px;
         grid-row-gap: 0px;
         background: #66c6fd3f;
-        padding: 50px;
+        padding: 30px;
         border-radius: 8px;
         margin-top: 100px;
         }
@@ -199,7 +263,7 @@ button.scroll-top.scroll-to-target.open {
         padding-right: 0px;
     }
     .doc-content{
-        padding: 30px;
+        padding: 10px;
     }
     
     .tp-service-item {
@@ -249,4 +313,31 @@ img.height-for-image {
     width: 400%;
     object-fit: cover;
 }
+.service-item{
+    padding: 20px;
+}
+.service-item:hover{
+    background: #292929;
+}
+
+h4.tp-section-subtitle.wow.tpfadeUp {
+    font-size: 14px;
+}
+
+a.tp-btn.btn-item.edit-btn {
+
+    left: 0;
+}
+.custom-margin {
+    margin-bottom: 30px !important
+}
+.blog-space {
+    padding-top: 90px !important;
+}
+
+.breadcrumb__content h3 {
+    line-height: 51px;
+    margin-bottom: 10px;
+}
+
 }

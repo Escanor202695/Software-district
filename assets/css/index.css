@@ -35,8 +35,6 @@
 
 img.image-ronded {
     border-radius: 60px;
-    height: 500px;
-    width: 500px;
     object-fit: cover;
 }
 .my-slide{
@@ -110,7 +108,7 @@ p.our-pride {
 }
 
 .tp-case-area.case-bg.case-space {
-    padding-top: 0;
+    padding-top: 90px;
 }
 .tp-logo img {
     width: 100px !important;
@@ -187,11 +185,11 @@ a.space-top {
 .breadcrumb__content h3 {
     font-size: 40px;
     margin-bottom: 0;
+    padding: 0;
 }
-
 .breadcrumb-height {
-    padding-top: 210px;
-    padding-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 160px;
 }
 .counter-item h4::before {
     content: "";
@@ -209,4 +207,18 @@ a.space-top {
     width: 65%;
     font-weight: 300;
     margin: 0 auto;
+}
+
+.tp-main-menu.d-none.d-xl-block {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+.tp-hero-shape-one img {
+    width: 80px;
+}
+
+.card-optimize {
+    height: 265px;
 }
