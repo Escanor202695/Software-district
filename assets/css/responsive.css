@@ -43,6 +43,13 @@ img.height-for-image {
     height: 300px;
     object-fit: cover;
 }
+.resource-btn {
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    width: 100%;
+}
 
 a.tp-btn.btn-item.edit-btn {
     background: none;
@@ -179,6 +186,13 @@ button.scroll-top.scroll-to-target.open {
 
     .case-studies{
         background: linear-gradient(45deg, #414141a1, #00000045),url('../img/about/case.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .contact-image{
+        background: linear-gradient(45deg, #414141a1, #00000045),url('../img/contact/c.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
