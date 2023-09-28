@@ -354,4 +354,10 @@ a.tp-btn.btn-item.edit-btn {
     margin-bottom: 10px;
 }
 
+.web-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 }

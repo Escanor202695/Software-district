@@ -237,7 +237,7 @@ a.space-top {
 }
 
 .card-optimize {
-    height: 265px;
+    height: 290px;
 }
 
 .resource{
@@ -276,4 +276,89 @@ a.space-top {
 .software_developemt p {
     font-size: 14px;
     line-height: 22px;
+}
+
+.web-design-img{
+    background: linear-gradient(45deg, #414141a1, #00000045),url(../img/img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.web-img img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tech-and-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.tech-and-img img {
+    width: 30px;
+    height: 40px;
+}
+
+.tech-and-img p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.tp-testimonial-three__user {
+    margin-top: -50px;
+    position: relative;
+    bottom: 59px;
+}
+
+/*accordian */
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.accordion-header {
+    background-color: none;
+    padding: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+.accordion-header h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.accordion-item p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 23px;
+    padding-bottom: 15px;
+    border-top: 1px solid #DDD;
+    padding-top: 14px;
+}
+
+.accordion-header {
+    background-color: none;
+    padding: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    border-radius: 3px;
 }
