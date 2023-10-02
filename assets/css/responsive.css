@@ -1,6 +1,6 @@
 .extra-class {
     right: 0;
-    left: -640px !important;
+    left: -603px !important;
     width: 1200px !important;
     margin: 0 auto !important;
 }
@@ -185,7 +185,31 @@ button.scroll-top.scroll-to-target.open {
         padding-bottom: 100px;
         padding-top: 200px;
     }
+     .blog-image{
+        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/img/blog.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 170px;
+        padding-top: 270px;
+     }
 
+     .blogs-image{
+        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/img/blogs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 170px;
+        padding-top: 270px;
+     }
+    .testimonial{
+        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/img/testimonial.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 170px;
+        padding-top: 270px;
+    }
     .case-studies{
         background: linear-gradient(45deg, #414141a1, #00000045),url('../img/about/case.jpg');
         background-repeat: no-repeat;
@@ -200,7 +224,10 @@ button.scroll-top.scroll-to-target.open {
         background-position: center;
         color: white;
     }
-
+    
+    .tp-btn-sm:hover{
+        background: #00649E;
+    }
     .scroll-top {
     
         border-radius: 14px;

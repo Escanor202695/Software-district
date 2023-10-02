@@ -427,7 +427,14 @@ a.space-top {
     height: 100%;
     border-radius: 6px;
 }
+.tpoffcanvas__close-btn button {
 
+    opacity: 0.8 !important
+  
+}
+.tp-case-thumb.p-relative.fix.mb-20 img {
+    height: 340px;
+}
 .website-describe {
     display: flex;
     align-items: center;
@@ -459,4 +466,22 @@ a.space-top {
 .problem-btn {
     width: 100%;
     margin-top: 22px;
+}
+
+.tp-main-menu.d-none.d-xl-block {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    right: 20px;
+}
+
+.postbox__tag span {
+    font-size: 16px;
+    margin-right: 0;
+    font-weight: 500;
+}
+
+.postbox__social a {
+    padding-left: 20px;
 }
