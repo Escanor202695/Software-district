@@ -1,3 +1,48 @@
+* {
+    scrollbar-width: auto !important;
+    scrollbar-color: #4d4d4d #ffffff00 !important;
+    scroll-behavior: smooth !important;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 9px !important;
+    
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #ffffff !important;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #949494 !important;
+    border-radius: 10px !important;
+    border: 2px solid #ffffff !important;
+    z-index: 999 !important;
+  
+  }
+  span.current {
+    font-weight: 300 !important;
+    color: #949494;
+}
+
+a.contact-us-immediately {
+    background: #3BB7FE;
+    padding: 15px 30px;
+    font-weight: 700;
+    color: #FFF;
+    position: relative;
+    bottom: 25px;
+    border-radius: 7px;
+    border: 2px solid #3BB7FE;
+    transition: .3s ease-in-out;
+}
+
+a.contact-us-immediately:hover {
+    background: none;
+    color: #3BB7FE;
+  
+}
 .service-item img{
     width: 45px;
     height: 45px;
@@ -10,10 +55,14 @@
     margin: 0;
     padding: 8px 0;
 }
+
 .arrow-icon img{
     width: 30px;
     height: auto;
 
+}
+.tp-logo img {
+    width: 130px !important;
 }
 .service-item p {
     font-weight: 400;
@@ -48,6 +97,18 @@
     background: #EFF0F2;
 }
 
+.tp-testimonial-three__content-icon {
+    margin-bottom: 19px;
+}
+
+.tp-testimonial-three__content {
+
+    padding: 20px 20px;
+
+}
+.tp-testimonial-three__user-img {
+    display: none;
+}
 img.image-ronded {
     border-radius: 60px;
     object-fit: cover;
@@ -57,10 +118,17 @@ img.image-ronded {
 }
 
 .my-slide img {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     object-fit: contain;
     margin: 0 18px;
+}
+img.height-for-image {
+    height: 420px;
+    width: 400px;
+    object-fit: cover;
+    position: relative;
+    top: 11px;
 }
 
 .icon svg {
@@ -127,9 +195,7 @@ p.our-pride {
 .tp-case-area.case-bg.case-space {
     padding-top: 90px;
 }
-.tp-logo img {
-    width: 100px !important;
-}
+
 .tp-logo{
     text-align: center !important;
     padding: -1px 0 !important
@@ -302,9 +368,25 @@ a.space-top {
     background-position: center;
     color: white;
 }
-
+.seven-transfrom{
+    transform: scale(1.5);
+    position: relative;
+    right: -14px;
+}
 .tp-case-button.mt-40 {
     margin-top: 22px;
+}
+
+.my-slide.translate-image img {
+    position: relative;
+    transform: scale(1.5);
+    left: -26px;
+}
+.my-slide.class-three img {
+    transform: scale(1.5);
+    margin: 0 60px;
+    position: relative;
+    left: 8px;
 }
 
 .software-img{
@@ -321,6 +403,11 @@ a.space-top {
     background-size: cover;
     background-position: center 5%;
     color: white; 
+}
+.tp-testimonial-item__text p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
 }
 
 .AI{

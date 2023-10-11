@@ -2133,9 +2133,7 @@ input[type=color] {
   }
 }
 
-.tp-logo img {
-  width: 142px;
-}
+
 
 .tp-main-menu ul {
   text-align: center;
@@ -8442,7 +8440,7 @@ p.checkout-coupon input[type=text]:focus {
   letter-spacing: -0.03em;
 }
 
-.tpcontact__form input {
+.tpcontact__form input{
   padding: 0px 20px;
   height: 60px;
   width: 100%;
@@ -8455,8 +8453,23 @@ p.checkout-coupon input[type=text]:focus {
   margin-bottom: 20px;
   transition: 0.3s;
 }
+
+.tpcontact__form select{
+  padding: 0px 20px;
+  height: 60px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--tp-common-black);
+  background-color: var(--tp-grey-6);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
 .tpcontact__form input:focus {
-  border: 1px solid var(--tp-common-green);
+  border: 1px solid #52C0FF;
 }
 .tpcontact__form textarea {
   height: 215px;
@@ -8474,7 +8487,7 @@ p.checkout-coupon input[type=text]:focus {
   transition: 0.3s;
 }
 .tpcontact__form textarea:focus {
-  border: 1px solid var(--tp-common-green);
+  border: 1px solid #52C0FF
 }
 
 .tp-contact-shape {

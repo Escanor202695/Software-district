@@ -1,11 +1,51 @@
 .extra-class {
-    right: 0;
-    left: -603px !important;
+    right: 0px;
+    left: -642px !important;
     width: 1200px !important;
-    margin: 0 auto !important;
+    margin: 0px auto !important;
 }
 .btn-item {
     padding: 0 40px !important;
+}
+.tp-testimonial-three__user-content {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 12px;
+}
+.low-code-height {
+    height: 318px;
+}
+.service-item h3 {
+    line-height: 22px;
+}
+.tp-testimonial-three__user-content {
+    padding: 30px 0;
+}
+.tp-testimonial-three__user-content {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: -5px;
+}
+.ab-inner-content {
+    margin-top: 91px;
+}
+.tp-testimonial-three__content-text p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.tp-testimonial-three__content {
+    padding: 57px 20px;
+}
+
+.tp-testimonial-three__content-text p {
+    height: 200px;
+    overflow: auto;
+    line-height: 23px;
+    font-size: 15px;
 }
 
 .space {
@@ -261,8 +301,85 @@ button.scroll-top.scroll-to-target.open {
     background: var(--tp-common-green);
     transition: all 1s ease 0s;
     border: none;
+
+}
+.slick-list.draggable {
+    transform: scale(0.9);
+}
+.nice-select {
+    padding: 0px 20px;
+    height: 60px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--tp-common-black);
+    background-color: var(--tp-grey-6);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    color: #52525C !important;
+}
+.nice-select:focus{
+    border: 1px solid #52C0FF;
+
+}
+span.current {
+    position: relative;
+    top: 8px;
+}
+.tpoffcanvas__logo img {
+    width: 36% !important;
+    object-fit: contain;
+    position: relative;
+    left: -12px;
+    top: 10px;
+}
+.tpoffcanvas__logo.pt-50 {
+    padding-top: 0;
 }
 @media only screen and (max-width: 990px)  {
+    .tpoffcanvas__logo img {
+        width: 70% !important;
+        object-fit: contain;
+        position: relative;
+        left: -12px;
+        top: 10px;
+    }
+    img.height-for-image {
+        height: 420px;
+        width: 400px;
+        object-fit: cover;
+        position: relative;
+        top: -40px;
+    }
+    .my-slide.class-three {
+        margin: 0 30px !important;
+    }
+    .low-code-height {
+        height: 100%;
+    }
+    .slick-list.draggable {
+        transform:none;
+    }
+    .ab-inner-content {
+        margin-top: 0;
+    }
+
+    .my-slide.class-three img {
+        transform: scale(1.0);
+        margin: 0 0px;
+        position: relative;
+        left: 0px;
+    }
+    .my-slide.translate-image img {
+        position: relative;
+        transform: scale(1.0);
+        left: 0px;
+    }
+    .moreClass {
+        height: 100%;
+    }
     .tpoffcanvas__info-address a {
         font-size: 12px !important
     }
