@@ -26,6 +26,13 @@
     color: #949494;
 }
 
+.contact-box__info-list ul li a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
 a.contact-us-immediately {
     background: #3BB7FE;
     padding: 15px 30px;

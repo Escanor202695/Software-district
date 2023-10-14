@@ -19,7 +19,7 @@
     line-height: 22px;
 }
 .tp-testimonial-three__user-content {
-    padding: 30px 0;
+    padding: 18px 0;
 }
 .tp-testimonial-three__user-content {
     padding-bottom: 50px;
@@ -38,12 +38,11 @@
 }
 
 .tp-testimonial-three__content {
-    padding: 57px 20px;
+    padding: 32px 20px;
+    padding-bottom: 0;
 }
 
 .tp-testimonial-three__content-text p {
-    height: 200px;
-    overflow: auto;
     line-height: 23px;
     font-size: 15px;
 }
@@ -223,7 +222,16 @@ button.scroll-top.scroll-to-target.open {
         background-size: cover;
         background-position: center -10%;
         padding-bottom: 100px;
-        padding-top: 200px;
+        padding-top: 180px;
+    }
+
+    .service-banner{
+        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/service/online.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -10%;
+        padding-bottom: 200px;
+        padding-top: 290px;
     }
      .blog-image{
         background: linear-gradient(45deg, #00000094, #000000a6),url('../img/img/blog.jpg');
@@ -338,7 +346,13 @@ span.current {
 .tpoffcanvas__logo.pt-50 {
     padding-top: 0;
 }
+._main_width {
+    height: 600px;
+}
 @media only screen and (max-width: 990px)  {
+    ._main_width {
+        height: 100%;
+    }
     .tpoffcanvas__logo img {
         width: 70% !important;
         object-fit: contain;
