@@ -579,3 +579,9 @@ a.space-top {
 .postbox__social a {
     padding-left: 20px;
 }
+
+.tp-testimonial-three__content-text p {
+    line-height: 23px;
+    font-size: 15px;
+    text-align: justify !important
+}
