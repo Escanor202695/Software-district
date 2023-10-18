@@ -585,3 +585,7 @@ a.space-top {
     font-size: 15px;
     text-align: justify !important
 }
+
+.tpoffcanvas__logo img {
+    background: white;
+}
