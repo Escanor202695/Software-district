@@ -349,7 +349,43 @@ span.current {
 ._main_width {
     height: 600px;
 }
+.tp-slider-exp-item.mb-30.customiz-cards.moreClasses {
+    height: 360px;
+}
+.tp-service-item.mb-20.d-flex.justify-content-between {
+    height: 310px;
+}
+.tp-service-item.mb-20.d-flex.justify-content-between.card-optimize.height-remove___ {
+    height: 239px;
+}
+
+.tp-testimonial-three__content-text img {
+    width: 150px;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.tp-testimonial-three__user-content {
+    position: relative;
+    bottom: 0 !important
+}
+
+.tp-testimonial-three__content {
+    padding-bottom: 40px;
+    height: 730px;
+}
 @media only screen and (max-width: 990px)  {
+   
+    .tp-service-item.mb-20.d-flex.justify-content-between.card-optimize.height-remove___ {
+        height: 100%;
+    }
+    .tp-service-item.mb-20.d-flex.justify-content-between {
+        height: 100%;
+    }
+    .tp-slider-exp-item.mb-30.customiz-cards.moreClasses {
+        height: 100% !important;
+    }
     ._main_width {
         height: 100%;
     }
