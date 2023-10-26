@@ -350,7 +350,9 @@ span.current {
     height: 600px;
 }
 .tp-slider-exp-item.mb-30.customiz-cards.moreClasses {
-    height: 360px;
+    height: 365px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .tp-service-item.mb-20.d-flex.justify-content-between {
     height: 310px;
@@ -417,7 +419,41 @@ span.current {
     width: 100%;
     padding-bottom: 20px;
 }
+.tp-service-item__content p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    width: 95% !important;
+}
+.tp-service-sm-title {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.tp-service-item___custom{
+    height: 345px !important;
+}
+
+.new________margin {
+    margin: 7px;
+}
 @media only screen and (max-width: 990px)  {
+    .new________margin {
+        margin: 0 !important;
+    }
+    .tp-service-item___custom{
+        height: 100% !important;
+    }
+    .tp-slider-exp-item.mb-30.customiz-cards.moreClasses {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .tp-service-item__content p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        width: 100% !important;
+    }
    
     .tp-service-item.mb-20.d-flex.justify-content-between.card-optimize.height-remove___ {
         height: 100%;
