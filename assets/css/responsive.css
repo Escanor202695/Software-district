@@ -217,12 +217,13 @@ button.scroll-top.scroll-to-target.open {
         top: 10px;
     }
     .about-image {
-        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/about/about-banner.jpg');
+        background:linear-gradient(45deg, #0000004e, #0000004f),url('../img/img/blue.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center -10%;
         padding-bottom: 100px;
         padding-top: 180px;
+        color: white !important;
     }
 
     .service-banner{
@@ -251,7 +252,7 @@ button.scroll-top.scroll-to-target.open {
         padding-top: 270px;
      }
     .testimonial{
-        background: linear-gradient(45deg, #00000094, #000000a6),url('../img/img/testimonial.jpg');
+        background: linear-gradient(45deg, #0000004e, #0000004c),url('../img/img/purple.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;

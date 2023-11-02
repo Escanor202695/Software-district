@@ -397,10 +397,10 @@ a.space-top {
 }
 
 .software-img{
-    background: linear-gradient(45deg, #414141c0, #00000070),url(../img/img/custome.jpg);
+    background: linear-gradient(45deg, #414141c0, #00000070),url(../img/img/computer\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:top center;
     color: white;  
 }
 
@@ -418,7 +418,7 @@ a.space-top {
 }
 
 .AI{
-    background: linear-gradient(45deg, #414141c0, #00000070),url(../img/img/AI.jpg);
+    background: linear-gradient(45deg, #000000c0, #00000070),url(../img/img/ai-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 5%;
